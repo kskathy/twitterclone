@@ -49,8 +49,16 @@ const TweetListItem = ({tweet}) => {
                         allowFullScreen></iframe>
               }
               {/*{JSON.stringify(tweet)}*/}
+
               <div className="col"
                    onClick={likeClickHandler}>
+                <i className="fa fa-comment-o"
+                   style={{color: "white"}}></i>123
+
+                <i className="fa fa-retweet"
+                   style={{color: "white", marginLeft: "80px"}}></i>234<span style={{marginLeft: "80px"}}></span>
+
+
                 {
                   tweet.liked && <i className="fa fa-heart"
                                     style={{color: tweet.liked ? "red": "white"}}></i>
@@ -59,7 +67,10 @@ const TweetListItem = ({tweet}) => {
                   !tweet.liked && <i className="fa fa-heart"></i>
                 }
                 {tweet.stats.likes}
+                <i className="fa fa-external-link"
+                   style={{color: "white", marginLeft: "80px"}}></i>
               </div>
+
 
             </td>
           </tr>
