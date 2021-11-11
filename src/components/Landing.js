@@ -5,8 +5,8 @@ const Landing = (
       <>
         <h1>Twitter Clone</h1>
         <ul>
-          <li><a href="../twitter/home">A7 Home</a></li>
-          <li><a href="../twitter/explore">A7 Explore</a></li>
+          <li><a href="../twitter/home">Home</a></li>
+          <li><a href="../twitter/explore">Explore</a></li>
         </ul>
       </>
   )
