@@ -34,8 +34,8 @@ const tweets = (state = posts, action) => {
         "handle": "ReactJS",
         "time": "2h",
         "tweet": action.tweet,
-        "avatar-image": "../../../images/react-blue.png",
-        "logo-image": "../../../images/react-blue.png",
+        "avatar-image": "../../../images/react-blue.jpeg",
+        "logo-image": "../../../images/react-blue.jpeg",
         "stats": {
           "comments": 123,
           "retweets": 234,
